@@ -94,5 +94,5 @@ footer .glyphicon:hover {color: #306d9f;}
 #volunteers img {height: 140px;max-height: 140px;width:140px;max-width: 140px;}
 #volunteers img h4 {padding: 10px;}
 .volunteers-title{color: #000000;}
-#mision {background: url(../website/meAround/images/meAroundBackground.png) no-repeat center center fixed; display: table;height: 650px;position: relative;width: 100%;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;}
+#mision {background: url(http://mearound.github.io/meAround/images/meAroundBackground.png) no-repeat center center fixed; display: table;height: 650px;position: relative;width: 100%;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;}
 #mision .panel {opacity: 0.85;}
