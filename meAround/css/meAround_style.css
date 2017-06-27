@@ -1,10 +1,5 @@
-<<<<<<< HEAD:meAround/css/meAround_style.css
-﻿ @font-face {font-family: 'Questrial';src: url('../fonts/Questrial-Regular.ttf') format('truetype');}
+@font-face {font-family: 'Questrial';src: url('../fonts/Questrial-Regular.ttf') format('truetype');}
 html, body { height: 100%; width: 100%;font-family: "Muli", "Adobe Blank";}
-=======
- @font-face {font-family: 'Questrial';src: url('../fonts/Questrial-Regular.ttf') format('truetype');}
-html, body { height: 100%; width: 100%;font-family: 'Questrial', sans-serif;}
->>>>>>> 50b6ac606dc924523297d6057850f4f4af526784:meAround/css/wc_style.css
 
 .main-title-box{ margin-top: 20px;}
 .main-title{color: #1d3941;}
@@ -14,6 +9,7 @@ html, body { height: 100%; width: 100%;font-family: 'Questrial', sans-serif;}
 
 h1 {font-weight: 800;}
 h2 {font-weight: 600;}
+.xs-font{font-size: 11px;}
 .important-word{font-weight:600; font-size:1.2em;}
 
 /* padded section */
@@ -94,7 +90,10 @@ footer .glyphicon:hover {color: #306d9f;}
 .panel-title{font-size: 22px !important; font-weight: bold;}
 
 
+
 .strategy-icon{max-height: 180px;max-width: 200px;}
+
+.text-center{text-align: center;}
 
 /* additional sections */
 #registration{background: rgba(222,166,38,1);}
@@ -105,22 +104,10 @@ footer .glyphicon:hover {color: #306d9f;}
 #volunteers img {height: 140px;max-height: 140px;width:140px;max-width: 140px;}
 #volunteers img h4 {padding: 10px;}
 .volunteers-title{color: #000000;}
-<<<<<<< HEAD:meAround/css/meAround_style.css
+
 
 #header { background: url(../images/strategy.png)  /* rgba(227,209,12,1); rgba(234,227,2,0.7);*/}
 #section1 {background: url(../images/meAroundBackground.png) no-repeat center center fixed; display: table;height: 650px;position: relative;width: 100%;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;}
 #section2 {background: url(../images/solution-background.png) no-repeat center center fixed; display: table;height: 650px;position: relative;width: 100%;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;}
 #section3 {background: url(../images/strategy.png) no-repeat center center fixed; display: table;height: 650px;position: relative;width: 100%;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;}
 #section4 {background: url(../images/floor1.png) no-repeat center center fixed; display: table;height: 650px;position: relative;width: 100%;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;}
-
-/*
-rgba(4,57,223,0.8);
-
-{background-color: #0437ef; opacity: 0.5;
-    filter: alpha(opacity=50); no-repeat center center fixed; display: table;height: 650px;position: relative;width: 100%;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;}
-{background: url(../images/meAroundBackground.png) no-repeat center center fixed; display: table;height: 650px;position: relative;width: 100%;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;} */
-#section1 .panel {opacity: 0.85;}
-=======
-#mision {background: url(http://mearound.github.io/meAround/images/meAroundBackground.png) no-repeat center center fixed; display: table;height: 650px;position: relative;width: 100%;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;}
-#mision .panel {opacity: 0.85;}
->>>>>>> 50b6ac606dc924523297d6057850f4f4af526784:meAround/css/wc_style.css
