@@ -1,12 +1,18 @@
 ﻿ @font-face {font-family: 'Questrial';src: url('../fonts/Questrial-Regular.ttf') format('truetype');}
-html, body { height: 100%; width: 100%;font-family: 'Questrial', sans-serif;}
+html, body { height: 100%; width: 100%;font-family: "Muli", "Adobe Blank";}
 
+.main-title-box{ margin-top: 20px;}
+.main-title{color: #1d3941;}
 
 .landing-page h1, .landing-page  h2, .landing-page h3, .landing-page h4, .landing-page h5 { color: #f7f6f6; margin-top: 0; }
 .landing-page img { max-width: 83%; }
 
+h1 {font-weight: 800;}
+h2 {font-weight: 600;}
+.important-word{font-weight:600; font-size:1.2em;}
+
 /* padded section */
-.pad-section {padding: 50px 0; }
+.pad-section {padding: 20px 0; }
 .pad-section img {width: 100%;}
 
 /* vertical-centered text */
@@ -36,8 +42,7 @@ html, body { height: 100%; width: 100%;font-family: 'Questrial', sans-serif;}
 .text-italic { font-style:italic; }
 
 /*--Logo--*/
-.logo{width: 80px;}
-#header img {max-width: 250px;}
+.logo{width: 120px;}
 
 /*--Footer--*/
 .footer{width:100%;min-height:40px;background-color: initial;color:#B4B4B4; font-size:12px;}
@@ -84,9 +89,10 @@ footer .glyphicon:hover {color: #306d9f;}
 .panel-title{font-size: 22px !important; font-weight: bold;}
 
 
+.strategy-icon{max-height: 180px;max-width: 200px;}
+
 /* additional sections */
-/* #header {background: url(../images/header.png) no-repeat; display: table;height: 5px;position: relative;width: 100%;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: contain;}*/
-#registration{background-color: #dea626;}
+#registration{background: rgba(222,166,38,1);}
 .registration-title{color: #ffffff;}
 .registration-text{font-size: 18px;color: #ffffff;}
 .registration-form-text{font-size: 18px;}
@@ -94,5 +100,17 @@ footer .glyphicon:hover {color: #306d9f;}
 #volunteers img {height: 140px;max-height: 140px;width:140px;max-width: 140px;}
 #volunteers img h4 {padding: 10px;}
 .volunteers-title{color: #000000;}
-#mision {background: url(../images/meAroundBackground.png) no-repeat center center fixed; display: table;height: 650px;position: relative;width: 100%;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;}
-#mision .panel {opacity: 0.85;}
+
+#header { background: url(../images/strategy.png)  /* rgba(227,209,12,1); rgba(234,227,2,0.7);*/}
+#section1 {background: url(../images/meAroundBackground.png) no-repeat center center fixed; display: table;height: 650px;position: relative;width: 100%;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;}
+#section2 {background: url(../images/solution-background.png) no-repeat center center fixed; display: table;height: 650px;position: relative;width: 100%;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;}
+#section3 {background: url(../images/strategy.png) no-repeat center center fixed; display: table;height: 650px;position: relative;width: 100%;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;}
+#section4 {background: url(../images/floor1.png) no-repeat center center fixed; display: table;height: 650px;position: relative;width: 100%;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;}
+
+/*
+rgba(4,57,223,0.8);
+
+{background-color: #0437ef; opacity: 0.5;
+    filter: alpha(opacity=50); no-repeat center center fixed; display: table;height: 650px;position: relative;width: 100%;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;}
+{background: url(../images/meAroundBackground.png) no-repeat center center fixed; display: table;height: 650px;position: relative;width: 100%;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;} */
+#section1 .panel {opacity: 0.85;}
