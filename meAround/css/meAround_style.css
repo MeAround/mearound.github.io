@@ -105,6 +105,34 @@ footer .glyphicon:hover {color: #306d9f;}
 #volunteers img h4 {padding: 10px;}
 .volunteers-title{color: #000000;}
 
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+a:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
 
 #header { background: url(../images/strategy2.png)  /* rgba(227,209,12,1); rgba(234,227,2,0.7);*/}
 #section1 {background: url(../images/meAroundBackground.png) no-repeat center center fixed; display: table;height: 650px;position: relative;width: 100%;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;}
